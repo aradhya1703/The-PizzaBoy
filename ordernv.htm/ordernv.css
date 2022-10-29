@@ -1,0 +1,82 @@
+#services {
+    margin: auto;
+    width: fit-content;
+}
+
+#services .box {
+    border: 2px solid red;
+    padding: 38px;
+    margin: 4px 35px;
+    border-radius: 35px;
+    background-color: white;
+    float: left;
+
+}
+
+#services .box img {
+    height: auto;
+    margin: auto;
+    padding: 0px 15px;
+    /* border: 2px solid green; */
+    /* border-radius: 5px; */
+    /* display: block; */
+    /* float: left; */
+}
+
+#services .TxtM {
+    float: left;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+}
+
+.heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+.head2 {
+    font-family: cursive;
+    text-align: center;
+}
+
+.para {
+    font-family: cursive;
+    text-align: center;
+}
+
+#formorder {
+    font-family: cursive;
+    color: rgb(228, 53, 53);
+}
+#formorder input{
+    font-family: cursive;
+    color: red;
+    margin: 4px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 45px;
+}
+#formorder input:hover{
+    background-color: rgb(237, 199, 199);
+}
+.h1 {
+    color: rgb(228, 53, 53);
+}
+
+.h1:hover {
+    color: rgb(255, 53, 53);
+    cursor: pointer;
+}
+
+.orderbtn {
+    font-size: large;
+    background-color: rgb(243, 81, 81);
+    border-radius: 2px solid black;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.orderbtn:hover {
+    cursor: pointer;
+    background-color: rgb(244, 125, 125);
+}

@@ -1,0 +1,286 @@
+body {
+    background-color: white;
+}
+
+/* css reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* css variables */
+:root {
+    --navbar-height: 60px;
+}
+
+/* Navigation Bar */
+header{
+    position: sticky;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+/* Nav bar list style */
+#navbar {
+    position: sticky;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: Segoe UI;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#navbar ul li {
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* .share{
+    float: right;
+}
+.share img{
+   height: 40px;
+   padding: 0px 21px;
+} */
+
+/* home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 740px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(background\ image.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+#home p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+/* services section */
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid red;
+    padding: 38px;
+    margin: 4px 35px;
+    border-radius: 35px;
+    background-color: white;
+
+}
+
+#services .box:hover {
+    background-color: rgb(250, 249, 249);
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-size: 0.8rm;
+}
+
+/* Client Section */
+#clients-section {
+    position: relative;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item {
+    padding: 60px;
+    ;
+}
+
+#clients img {
+    height: 70px;
+}
+
+/* multiple use classes */
+.h-primary {
+    text-align: center;
+    font-size: 3rem;
+    padding: 12px;
+    font-family: cursive;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+    padding: 12px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 70px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: red;
+    background-color: black;
+    border: 2px solid red;
+}
+
+.center {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+/* Feedback Form style */
+#heading {
+    text-align: center;
+    color: white;
+}
+
+.img {
+    text-align: center;
+}
+
+#form input {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 45px;
+    padding: 5px 5px;
+}
+
+#form textarea {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 45px;
+    padding: 5px 5px;
+}
+
+#form input:hover {
+    background-color: lightsalmon;
+}
+
+#form textarea:hover {
+    background-color: lightsalmon;
+}
+
+#form .row1 {
+    text-align: center;
+    font-family: cursive;
+    border-radius: 100px;
+    color: white;
+    border-color: orange;
+}
+
+#form .txt1:hover {
+    color: black;
+    background-color: orange;
+
+}
+
+#form .row2 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 100px;
+    border-color: orange;
+}
+
+#form .row3 {
+    text-align: center;
+    border-color: orange;
+    border-radius: 100px;
+}
+
+.r4 {
+    margin: 5px;
+    padding: 5px;
+    font-family: cursive;
+    border-radius: 50px;
+    border-color: black;
+}
+
+.r4:hover {
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+}

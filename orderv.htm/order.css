@@ -1,0 +1,82 @@
+#services {
+    margin: auto;
+    width: fit-content;
+}
+
+#services .box {
+    border: 2px solid green;
+    padding: 38px;
+    margin: 4px 35px;
+    border-radius: 35px;
+    background-color: white;
+    float: left;
+
+}
+
+#services .box img {
+    height: auto;
+    margin: auto;
+    padding: 0px 15px;
+    /* border: 2px solid green; */
+    /* border-radius: 5px; */
+    /* display: block; */
+    /* float: left; */
+}
+
+#services .TxtM {
+    float: left;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+}
+
+.heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+.head2 {
+    font-family: cursive;
+    text-align: center;
+}
+
+.para {
+    font-family: cursive;
+    text-align: center;
+}
+
+#formorder {
+    font-family: cursive;
+    color: rgb(0, 82, 0);
+}
+#formorder input{
+    font-family: cursive;
+    color: green;
+    margin: 4px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 45px;
+}
+#formorder input:hover{
+    background-color: lightgreen;
+}
+.h1 {
+    color: rgb(0, 255, 0);
+}
+
+.h1:hover {
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.orderbtn {
+    font-size: large;
+    background-color: rgb(0, 174, 9);
+    border-radius: 2px solid black;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.orderbtn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 0);
+}
